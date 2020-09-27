@@ -1,0 +1,1 @@
+# Estudo direcionado a javascript funcional
