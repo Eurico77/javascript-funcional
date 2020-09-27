@@ -3,5 +3,12 @@ function esperarPor(time) {
       while(Date.now() < futuro) {} 
 }
 
+setInterval(() => console.log('exec01'), 5000)
+setTimeout(() => {
+   esperarPor(5000)
+   console.log('exec02')
+}, 700)
+
+
 esperarPor(5000)
 console.log(`finish`)
